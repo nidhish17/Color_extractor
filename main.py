@@ -42,5 +42,5 @@ def homePage():
 
 
 if __name__ == "__main__":
-    app.run(debug=False)
+    app.run(debug=False, threaded=True, timeout=300)
 
