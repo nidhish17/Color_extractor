@@ -28,7 +28,8 @@ def color_extractor(image_file, color_count=10):
 
         return [hex_code, dominant_color_hex]
     # return hex_code
-    except:
+    except Exception as e:
+        print(e)
         return "error"
 
 # print(color_distance( (255, 76, 0), (198, 0, 50) ))
