@@ -18,7 +18,7 @@ def color_extractor(image_file, color_count=10):
         # plt.show()
         hex_code = []
 
-        most_dominant_color = ct.get_color(quality=1)
+        most_dominant_color = ct.get_palette(color_count=2)[0]
 
         for color in ten_colors:
             hex_code.append(f"#{color[0]:02x}{color[1]:02x}{color[2]:02x}")

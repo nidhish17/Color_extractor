@@ -53,7 +53,7 @@ submitbtn.addEventListener("click", function (e){
   if (form.checkValidity()){
     // console.log("i was clicked")
   submitbtn.classList.add("disabled")
-    submitbtn.value = "Uploading..."
+    submitbtn.value = "Processing..."
   }
 
 });
